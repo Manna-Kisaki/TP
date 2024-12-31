@@ -1,0 +1,77 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #4A90E2;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Main Section */
+main {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.tour-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.tour-item {
+    width: 30%;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.tour-item img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-item h3 {
+    margin: 1rem;
+    color: #4A90E2;
+}
+
+.tour-item p {
+    margin: 1rem;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
